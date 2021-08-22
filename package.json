@@ -1,0 +1,22 @@
+{
+  "name": "employee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "node server.js",
+    "client": "node client.js"
+  },
+  "keywords": [
+    "grpc"
+  ],
+  "author": "min zhang",
+  "license": "MIT",
+  "devDependencies": {
+    "@grpc/grpc-js": "^1.3.7",
+    "@grpc/proto-loader": "^0.6.4",
+    "lodash": "^4.17.21"
+  }
+}
